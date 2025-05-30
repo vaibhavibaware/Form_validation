@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    box-sizing: border-box;
+    background-color: rgb(87, 87, 87);
+}
+
+#main {
+    background-color: #fff;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    width: 85%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left:40px ;
+}
+
+#form-group-name {
+    display: flex;
+    margin-right:4px;
+
+}
+#last-name{
+    margin-right:25px;
+}
+
+#register{
+    display:flex;
+    flex-direction: column;
+}
+
+#reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 43px;
+    text-transform: uppercase;
+}
+
+#register h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:20px;  
+    margin-bottom: 3px;
+}
+
+
+button {
+    margin: 20px auto;
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: #038540;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="checkbox"] {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+label span {
+    color: #038540;;
+    cursor: pointer;
+}
