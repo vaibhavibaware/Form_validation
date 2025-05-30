@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <form id="register">
+            <h1 id="reg">Register</h1>
+            <h6>Create your account its free and only takes minute</h6>
+
+            <div id="form-group-name"> 
+                <input id="first-name" type="text" placeholder="First Name"> 
+                <input id="last-name" type="text" placeholder="Last Name"> 
+            </div>
+
+           <div id="form-group-email">
+                <input id="email" type="email" placeholder="Email" required> 
+           </div>
+            
+           <div id="form-group-pass">
+                <input id="Password" type="password" placeholder="Password"> 
+           </div>
+
+           <div id="form-group-Conformpass">
+                <input id="Conform-Password" type="password" placeholder=" Conform Password"> 
+           </div>
+          
+
+           <div>
+                <input type="checkbox" id="terms">
+                <label for="terms">I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>.</label>
+           </div>
+            <button>Register Now</button>
+            <div id="error-message" style="color: red; text-align: center; font-size: 16px; margin-top: 10px;"></div>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
